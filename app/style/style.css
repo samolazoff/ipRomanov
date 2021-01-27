@@ -1,0 +1,24 @@
+.block-title,
+.about,
+.work {
+  margin-bottom: 50px; }
+
+.block-title {
+  height: 100vh; }
+
+.block-title .slide {
+  height: 25vh; }
+
+.nav-list {
+  padding: 0; }
+
+#menu-exit {
+  align-self: flex-end; }
+
+.works-content {
+  flex-wrap: wrap;
+  height: 400px;
+  overflow-y: scroll; }
+
+.works-box__img {
+  position: relative; }
