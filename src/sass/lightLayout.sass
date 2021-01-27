@@ -1,4 +1,11 @@
-a
+body
+    margin: 0
+    padding: 0
+a,
+a:link,
+a:visited,
+a:active,
+a:hover
     text-decoration: none
 li 
     list-style: none
@@ -28,9 +35,8 @@ li
     flex-direction: row
 .absolute
     position: absolute
-    z-index: 2
-    top: 50%
-    left: 25%
+.relative
+    position: relative
 .w-100
     width: 100%
 .w-90
@@ -67,4 +73,5 @@ li
 
 @media ( max-width: 576px )
     .wrap
-        max-width: 540px    
+        max-width: 540px
+    

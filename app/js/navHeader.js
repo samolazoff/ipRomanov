@@ -15,6 +15,7 @@ const structureNav=()=>{
         listNavHeader.hidden = true;
         navHeader.classList.remove('between');
         navHeader.classList.add('end');
+        navHeader.classList.add('relative');
         listNavHeader.classList.remove('flex-row');
         listNavHeader.classList.remove('flex-col');
     }
@@ -27,5 +28,7 @@ iMenuHeader.addEventListener('click',()=>{
     iMenuHeader.hidden = true;
     listNavHeader.hidden = false;
     listNavHeader.classList.remove('w-100');
-    listNavHeader.classList.add('w-75');
+    listNavHeader.classList.add('w-50');
+    listNavHeader.classList.add('absolute');
+    listNavHeader.classList.add('nav__active');
 })

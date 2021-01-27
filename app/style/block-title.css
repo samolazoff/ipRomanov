@@ -1,15 +1,3 @@
-.wrap {
-  font-family: 'Roboto', sans-serif; }
-
-.block-title,
-.about,
-.work,
-.prices,
-.contacts {
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px; }
-
 .block-title {
   height: 80vh;
   background: #00CCFF url(../static/img/title-bgc_2.jpg);
@@ -82,11 +70,3 @@
   .block-title .slide {
     font-size: .8em;
     letter-spacing: 1.5px; } }
-
-.works-content {
-  flex-wrap: wrap;
-  height: 400px;
-  overflow-y: scroll; }
-
-.works-box__img {
-  position: relative; }
