@@ -4,7 +4,7 @@ const contAbout=blockAbout.querySelector('.about-content');
 
 
 const structureAbout=()=>{
-    if (blockAbout.offsetWidth>576){
+    if (blockAbout.offsetWidth>768){
         imgAbout.hidden = false;
         contAbout.classList.remove('w-100');
         contAbout.classList.add('w-50');
@@ -15,6 +15,4 @@ const structureAbout=()=>{
     }
 }
 structureAbout();
-window.addEventListener('resize',function(){
-    structureAbout();
-});
+window.addEventListener('resize',structureAbout);

@@ -20,7 +20,8 @@
 
 .nav-list__items {
   padding: 5px;
-  font-weight: 500; }
+  font-weight: 500;
+  text-align: right; }
 
 .nav-list__items:hover {
   background-color: #CCCC99;
@@ -49,7 +50,8 @@
 .block-title .slide {
   color: #CCCCCC;
   font-size: 2em;
-  letter-spacing: 1.5px; }
+  letter-spacing: 1.5px;
+  text-align: center; }
 
 .nav__active {
   margin: 10px;
@@ -68,5 +70,8 @@
     font-size: 1.25em;
     etter-spacing: 1.5px; }
   .block-title .slide {
-    font-size: .8em;
-    letter-spacing: 1.5px; } }
+    font-size: 1.5em;
+    letter-spacing: 1.5px; }
+  .nav-list__items a {
+    letter-spacing: 1px;
+    font-size: .8em; } }

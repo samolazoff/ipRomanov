@@ -27,8 +27,6 @@ window.addEventListener('resize',function(){
 iMenuHeader.addEventListener('click',()=>{
     iMenuHeader.hidden = true;
     listNavHeader.hidden = false;
-    listNavHeader.classList.remove('w-100');
-    listNavHeader.classList.add('w-50');
     listNavHeader.classList.add('absolute');
     listNavHeader.classList.add('nav__active');
 })
